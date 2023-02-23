@@ -228,10 +228,11 @@ body .glint div #g1A {
   animation-delay: 500ms;
 }
 
-/*body .glint div #g1B {
+body .glint div #g1B {
   animation-delay: 900ms;
 }
-body .glint div #g2A {
+
+/*body .glint div #g2A {
   animation-delay: 1500ms;
 }
 body .glint div #g2B {

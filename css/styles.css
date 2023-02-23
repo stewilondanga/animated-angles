@@ -154,11 +154,12 @@ body .gem .sq1C {
   background: linear-gradient(45deg, #d9ffff 0%, #d9ffff 49%, #ebffff 49%, #ebffff 51%, #b4e6f0 51%, #b4e6f0 100%);
 }
 
-/*body .gem .sq1D {
+body .gem .sq1D {
   background: linear-gradient(55deg, #ebffff 0%, #ebffff 49%, #d9ffff 49%, #d9ffff 51%, rgba(255, 255, 255, 0) 51%, rgba(255, 255, 255, 0) 100%);
   transform: skewY(-10deg);
 }
-body .gem .sq2A,
+
+/*body .gem .sq2A,
 body .gem .sq2B,
 body .gem .sq3A,
 body .gem .sq3B {

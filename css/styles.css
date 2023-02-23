@@ -159,7 +159,7 @@ body .gem .sq1D {
   transform: skewY(-10deg);
 }
 
-/*body .gem .sq2A,
+body .gem .sq2A,
 body .gem .sq2B,
 body .gem .sq3A,
 body .gem .sq3B {
@@ -168,7 +168,8 @@ body .gem .sq3B {
   grid-row-end: span 1;
   z-index: 4;
 }
-body .gem .sq2A {
+
+/*body .gem .sq2A {
   background: linear-gradient(50deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 35%, rgba(130, 200, 240, 0.5) 35%, rgba(130, 200, 240, 0.5) 37%, #82c8dc 37%, #82c8dc 70%, #a0dce6 70%, #a0dce6 100%);
 }
 body .gem .sq2B {

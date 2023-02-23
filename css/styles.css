@@ -110,7 +110,7 @@ body {
   overflow: hidden;
 }
 
-/*body .gem {
+body .gem {
   z-index: 4;
   position: relative;
   padding: 1rem;
@@ -122,7 +122,8 @@ body {
   grid-template-columns: repeat(4, 22%);
   grid-template-rows: repeat(3, 30%);
 }
-body .gem .grid_square {
+
+/*body .gem .grid_square {
   height: 100%;
 }
 body .gem .sq1A,

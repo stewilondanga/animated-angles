@@ -101,7 +101,7 @@
   transition-delay: 0.4s;
 }
 
-/*body {
+body {
   background-color: rgba(130, 220, 200, 0.5);
   height: 100vh;
   margin: 0;
@@ -109,7 +109,8 @@
   place-items: center;
   overflow: hidden;
 }
-body .gem {
+
+/*body .gem {
   z-index: 4;
   position: relative;
   padding: 1rem;

@@ -266,7 +266,10 @@ a {
 
 .containers {
   width: 520px;
-  margin: 20px auto;
+  margin: 10px 0 0 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 #contact h1 {

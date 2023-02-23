@@ -137,7 +137,7 @@ body .gem .sq1A {
   transform: skewY(10deg);
 }
 
-/*body .gem .sq1B,
+body .gem .sq1B,
 body .gem .sq1C {
   margin-top: 8%;
   border-top-color: rgba(130, 200, 240, 0.5);
@@ -145,7 +145,8 @@ body .gem .sq1C {
   border-top-style: solid;
   z-index: 2;
 }
-body .gem .sq1B {
+
+/*body .gem .sq1B {
   background: linear-gradient(-45deg, #d9ffff 0%, #d9ffff 49%, #ebffff 49%, #ebffff 51%, #b4e6f0 51%, #b4e6f0 100%);
 }
 body .gem .sq1C {

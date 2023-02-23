@@ -224,10 +224,11 @@ body .glint div span {
   animation: glint 2500ms ease-out infinite alternate;
 }
 
-/*body .glint div #g1A {
+body .glint div #g1A {
   animation-delay: 500ms;
 }
-body .glint div #g1B {
+
+/*body .glint div #g1B {
   animation-delay: 900ms;
 }
 body .glint div #g2A {

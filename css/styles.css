@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+/*@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
 
 .share__icon {
   width: 32px;
@@ -99,6 +99,137 @@
 
 .share-button:hover .share__link:nth-of-type(4) {
   transition-delay: 0.4s;
+}
+
+body {
+  background-color: rgba(130, 220, 200, 0.5);
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+body .gem {
+  z-index: 4;
+  position: relative;
+  padding: 1rem;
+  height: 50vw;
+  width: 50vw;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  grid-template-columns: repeat(4, 22%);
+  grid-template-rows: repeat(3, 30%);
+}
+body .gem .grid_square {
+  height: 100%;
+}
+body .gem .sq1A,
+body .gem .sq1D {
+  z-index: 1;
+}
+body .gem .sq1A {
+  background: linear-gradient(-55deg, #a0dce6 0%, #a0dce6 49%, rgba(130, 200, 240, 0.5) 49%, rgba(130, 200, 240, 0.5) 51%, rgba(255, 255, 255, 0) 51%, rgba(255, 255, 255, 0) 100%);
+  transform: skewY(10deg);
+}
+body .gem .sq1B,
+body .gem .sq1C {
+  margin-top: 8%;
+  border-top-color: rgba(130, 200, 240, 0.5);
+  border-top-width: 2px;
+  border-top-style: solid;
+  z-index: 2;
+}
+body .gem .sq1B {
+  background: linear-gradient(-45deg, #d9ffff 0%, #d9ffff 49%, #ebffff 49%, #ebffff 51%, #b4e6f0 51%, #b4e6f0 100%);
+}
+body .gem .sq1C {
+  background: linear-gradient(45deg, #d9ffff 0%, #d9ffff 49%, #ebffff 49%, #ebffff 51%, #b4e6f0 51%, #b4e6f0 100%);
+}
+body .gem .sq1D {
+  background: linear-gradient(55deg, #ebffff 0%, #ebffff 49%, #d9ffff 49%, #d9ffff 51%, rgba(255, 255, 255, 0) 51%, rgba(255, 255, 255, 0) 100%);
+  transform: skewY(-10deg);
+}
+body .gem .sq2A,
+body .gem .sq2B,
+body .gem .sq3A,
+body .gem .sq3B {
+  margin-top: -5%;
+  grid-column-end: span 2;
+  grid-row-end: span 1;
+  z-index: 4;
+}
+body .gem .sq2A {
+  background: linear-gradient(50deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 35%, rgba(130, 200, 240, 0.5) 35%, rgba(130, 200, 240, 0.5) 37%, #82c8dc 37%, #82c8dc 70%, #a0dce6 70%, #a0dce6 100%);
+}
+body .gem .sq2B {
+  background: linear-gradient(-50deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 35%, rgba(130, 200, 240, 0.5) 35%, rgba(130, 200, 240, 0.5) 37%, #82c8dc 37%, #82c8dc 70%, #a0dce6 70%, #a0dce6 100%);
+}
+body .gem .sq3A {
+  background: linear-gradient(50deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 71%, rgba(130, 200, 240, 0.5) 71%, rgba(130, 200, 240, 0.5) 73%, #82c8dc 73%, #82c8dc 100%);
+}
+body .gem .sq3B {
+  background: linear-gradient(-50deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 71%, rgba(130, 200, 240, 0.5) 71%, rgba(130, 200, 240, 0.5) 73%, #82c8dc 73%, #82c8dc 100%);
+}
+body .gem .sq2A,
+body .gem .sq2B {
+  border-top: 2px #d9ffff solid;
+}
+body .glint {
+  position: absolute;
+  z-index: 10;
+  height: 50vw;
+  width: 50vw;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: repeat(4, 25%);
+  grid-gap: 0;
+}
+body .glint div {
+  width: 100%;
+  height: 100%;
+  display: grid;
+}
+body .glint div:nth-of-type(1), body .glint div:nth-of-type(2) {
+  grid-row-end: span 1;
+  justify-content: center;
+  align-content: end;
+}
+body .glint div:nth-of-type(3), body .glint div:nth-of-type(4) {
+  place-content: center;
+  grid-row-end: span 2;
+}
+body .glint div span {
+  font-size: 2rem;
+  opacity: 0;
+  animation: glint 2500ms ease-out infinite alternate;
+}
+body .glint div #g1A {
+  animation-delay: 500ms;
+}
+body .glint div #g1B {
+  animation-delay: 900ms;
+}
+body .glint div #g2A {
+  animation-delay: 1500ms;
+}
+body .glint div #g2B {
+  animation-delay: 1800ms;
+}
+
+@keyframes glint {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 a {

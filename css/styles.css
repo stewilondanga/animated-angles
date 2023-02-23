@@ -185,11 +185,12 @@ body .gem .sq3B {
   background: linear-gradient(-50deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 71%, rgba(130, 200, 240, 0.5) 71%, rgba(130, 200, 240, 0.5) 73%, #82c8dc 73%, #82c8dc 100%);
 }
 
-/*body .gem .sq2A,
+body .gem .sq2A,
 body .gem .sq2B {
   border-top: 2px #d9ffff solid;
 }
-body .glint {
+
+/*body .glint {
   position: absolute;
   z-index: 10;
   height: 50vw;

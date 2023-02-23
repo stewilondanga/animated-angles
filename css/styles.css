@@ -240,22 +240,25 @@ body .glint div #g2B {
   animation-delay: 1800ms;
 }
 
-/*@keyframes glint {
+@keyframes glint {
   0% {
     opacity: 0;
   }
+
   40% {
     opacity: 1;
   }
+
   60% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
   }
 }
 
-a {
+/*a {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 20px;
   text-decoration: none;

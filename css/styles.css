@@ -127,11 +127,12 @@ body .gem .grid_square {
   height: 100%;
 }
 
-/*body .gem .sq1A,
+body .gem .sq1A,
 body .gem .sq1D {
   z-index: 1;
 }
-body .gem .sq1A {
+
+/*body .gem .sq1A {
   background: linear-gradient(-55deg, #a0dce6 0%, #a0dce6 49%, rgba(130, 200, 240, 0.5) 49%, rgba(130, 200, 240, 0.5) 51%, rgba(255, 255, 255, 0) 51%, rgba(255, 255, 255, 0) 100%);
   transform: skewY(10deg);
 }

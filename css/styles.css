@@ -207,12 +207,13 @@ body .glint div {
   display: grid;
 }
 
-/*body .glint div:nth-of-type(1), body .glint div:nth-of-type(2) {
+body .glint div:nth-of-type(1), body .glint div:nth-of-type(2) {
   grid-row-end: span 1;
   justify-content: center;
   align-content: end;
 }
-body .glint div:nth-of-type(3), body .glint div:nth-of-type(4) {
+
+/*body .glint div:nth-of-type(3), body .glint div:nth-of-type(4) {
   place-content: center;
   grid-row-end: span 2;
 }

@@ -213,11 +213,12 @@ body .glint div:nth-of-type(1), body .glint div:nth-of-type(2) {
   align-content: end;
 }
 
-/*body .glint div:nth-of-type(3), body .glint div:nth-of-type(4) {
+body .glint div:nth-of-type(3), body .glint div:nth-of-type(4) {
   place-content: center;
   grid-row-end: span 2;
 }
-body .glint div span {
+
+/*body .glint div span {
   font-size: 2rem;
   opacity: 0;
   animation: glint 2500ms ease-out infinite alternate;

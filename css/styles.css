@@ -146,10 +146,11 @@ body .gem .sq1C {
   z-index: 2;
 }
 
-/*body .gem .sq1B {
+body .gem .sq1B {
   background: linear-gradient(-45deg, #d9ffff 0%, #d9ffff 49%, #ebffff 49%, #ebffff 51%, #b4e6f0 51%, #b4e6f0 100%);
 }
-body .gem .sq1C {
+
+/*body .gem .sq1C {
   background: linear-gradient(45deg, #d9ffff 0%, #d9ffff 49%, #ebffff 49%, #ebffff 51%, #b4e6f0 51%, #b4e6f0 100%);
 }
 body .gem .sq1D {
